@@ -1,0 +1,35 @@
+@import "./variables.scss";
+.custom-card {
+  background-color: $card-background !important;
+  max-width: 240px;
+  max-height: 380px;
+  margin: 4px;
+  .title {
+    text-align: center;
+    padding: 10px 0;
+  }
+  .post-type {
+    text-align: center;
+  }
+  a {
+    img {
+      width: 100%;
+      height: 230px;
+    }
+  }
+  .details-part {
+    min-height: 70px;
+    padding: 6px 0;
+
+    .details,
+    .numbers {
+      display: flex;
+      justify-content: space-between;
+      font-size: 12px;
+      padding: 0 4px;
+    }
+    .profile-details {
+      padding: 0 4px;
+    }
+  }
+}

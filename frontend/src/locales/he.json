@@ -1,0 +1,156 @@
+{
+    "general": {
+        "cut": "חיטוב",
+        "bulk": "מסה",
+        "menu": "תפריט",
+        "menus": "תפריטים",
+        "training": "תוכנית אימון",
+        "trainings": "תוכניות אימון",
+        "programs": "תוכניות אימון",
+        "peoples": "אנשים",
+        "post": "פוסט",
+        "posts": "פוסטים",
+        "email": "מייל",
+        "password": "סיסמא",
+        "update": "עדכן",
+        "submit": "שלח",
+        "pleaseLogin": "התחבר בבקשה כדי להוסיף תגובה",
+        "close": "סגור",
+        "open": "פתח",
+        "filterOptions": " אפשרויות פילטור",
+        "type": "סוג:{{type}}",
+        "typeFilter": "סוג",
+        "likes": "לייקים:{{likesCount}}",
+        "isntValid": "לא חוקי",
+        "hebrew": "עברית",
+        "english": "אנגלית",
+        "errorInfo": " בבקשה מלא את כל המידע על ה{{type}}"
+    },
+    "navbar": {
+        "home": "בית",
+        "menus": "תפריטים",
+        "programs": "אימונים",
+        "peoples": "אנשים",
+        "newMenu": "צור תפריט",
+        "newProgram": "צור אימון",
+        "login": "התחבר",
+        "logout": "התנתק"
+    },
+    "home": {
+        "allPosts": "כל הפוסטים",
+        "selectLanguage": "בחר שפה"
+    },
+    "pages": {
+        "menus": {
+            "title": "תפריטים",
+            "filterCalories": "קלוריות",
+            "filterProtein": "חלבונים",
+            "filterCarbs": "פחמימות",
+            "filterFats": "שומנים",
+            "notFound": "לא נמצאו תפריטים"
+        },
+        "trainings": {
+            "title": "תוכניות אימון",
+            "filterType": "מטרה",
+            "notFound": "לא נמצאו תוכניות אימון"
+        },
+        "newPosts": {
+            "general": {
+                "title": "כותרת",
+                "titleDesc": "הכנס כותרת",
+                "description": "תיאור",
+                "image": "תמונה",
+                "imageDesc": "הכנס כתובת תמונה"
+            },
+            "menu": {
+                "create": "צור תפריט חדש",
+                "update": "עדכן תפריט",
+                "delete": "מחק תפריט",
+                "selectType": "בחר סוג תפריט",
+                "addFood": "הוסף מאכל",
+                "table": {
+                    "name": "שם",
+                    "unit": "יח' מידה",
+                    "qty": "כמות",
+                    "calories": "קלוריות",
+                    "protein": "חלבונים",
+                    "fat": "שומנים",
+                    "carbs": "פחמימות",
+                    "total": "סך ערכים:",
+                    "unitFixed": "יחידה",
+                    "unitGrams": "גרם",
+                    "unitKg": "ק\"ג",
+                    "unitCup": "כוס/גביע",
+                    "unitMl": "מיליליטר"
+                },
+                "addBtn": "הוסף מאכל",
+                "uploadBtn": "העלה תפריט"
+            },
+            "training": {
+                "create": "צור תוכנית אימון חדשה",
+                "update": "עדכן תוכנית אימון",
+                "delete": "מחק תוכנית אימון",
+                "selectType": "בחר את סוג האימון",
+                "addExercise": "הוסף תרגיל",
+                "table": {
+                    "name": "שם",
+                    "muscleName": "שריר",
+                    "reps": "חזרות",
+                    "sets": "סטים"
+                },
+                "exercises": "תרגילים",
+                "addBtn": "הוסף תרגיל",
+                "uploadBtn": "העלה תוכנית אימון"
+            }
+        },
+        "postPage": {
+            "buildBy": "הועלה ע\"י:",
+            "suitableFor": "מתאים ל:{{suitable}}",
+            "likes": "לייקים:{{likesCount}}",
+            "edit": "עריכה",
+            "reviews": "תגובות",
+            "noReviews": "אין תגובות",
+            "writeReview": "הוסף תגובה",
+            "rating": "דירוג",
+            "select": "בחר",
+            "comment": "תגובה",
+            "r1": "רע",
+            "r2": "סביר",
+            "r3": "טוב",
+            "r4": "טוב מאוד",
+            "r5": "מצויין"
+        },
+        "card": {
+            "type": "סוג",
+            "likes": "לייקים",
+            "calories": "קלוריות",
+            "protein": "חלבונים",
+            "fat": "שומנים",
+            "carbs": "פחמימות"
+        },
+        "user": {
+            "signIn": "התחברות",
+            "signUp": "הרשם",
+            "register": "הרשמה",
+            "login": "התחבר",
+            "fullName": "שם מלא",
+            "phoneNumber": "טלפון",
+            "image": "תמונה",
+            "imagePh": "העלה תמונה",
+            "shareMyPhone": "שתף את הטלפון שלי",
+            "newHere": "חדש כאן ?",
+            "hasAccount": "כבר יש לך משתמש ?",
+            "myProfile": "הפרופיל שלי",
+            "update": "הפרופיל התעדכן !",
+            "updateBtn": "עדכון",
+            "errorPassword": "חייבת להכיל לפחות 6 תווים",
+            "errorName": "חייב להכיל לפחות 3 תווים",
+            "table": {
+                "title": "כותרת",
+                "type": "סוג",
+                "likes": "לייקים",
+                "reviews": "תגובות"
+            }
+        }
+    }
+}

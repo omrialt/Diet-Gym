@@ -1,0 +1,22 @@
+@import "./variables.scss";
+.create-program-page {
+  color: $button-color-text !important;
+}
+.form-select-type {
+  height: 38px !important;
+}
+.table-title {
+  font-weight: 700;
+}
+.table thead {
+  color: $button-color-text !important;
+}
+.create-button,
+.delete-button {
+  height: 30px;
+  width: 220px;
+}
+.add-button {
+  height: 30px;
+  width: 130px;
+}

@@ -1,0 +1,25 @@
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  
+}
+.dir-ltr{
+  direction: ltr !important;
+}
+.dir-rtl{
+  direction:rtl !important
+}
+
+.dir-rtl .ql-editor{
+  text-align: right !important;
+}
+.layout{
+    background-image: linear-gradient(
+        to right bottom,
+        rgb(3, 1, 1),
+        rgb(48, 48, 51)
+      );
+      overflow-x: hidden;
+      color:#fff
+}

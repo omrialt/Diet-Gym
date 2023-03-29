@@ -1,0 +1,23 @@
+@import "./styles/variables.scss";
+.main-container{
+  width: 100%;
+  height: 100%;
+
+}
+.invalid input {
+  border: 1px solid #b40e0e;
+  background-color: #fddddd;
+}
+
+.error-text {
+  color: #b40e0e;
+}
+.add-padding{
+  padding-bottom: 180px;
+}
+
+@media only screen and (max-width:576px){
+  .add-padding{
+    padding-bottom: 290px;
+  }
+}

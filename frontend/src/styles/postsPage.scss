@@ -1,0 +1,20 @@
+@import "./variables.scss";
+.posts-main {
+  padding: 24px 48px;
+  color: $button-color-text;
+  h2 {
+    text-align: center;
+  }
+  .filter-label {
+    margin-bottom: 12px;
+    &:hover {
+      color: rgb(214, 38, 220);
+    }
+  }
+  .sliders {
+    display: flex;
+  }
+}
+.row {
+  margin-top: 12px !important;
+}

@@ -1,0 +1,43 @@
+@import "./variables.scss";
+nav {
+  box-shadow: -1px 14px 18px -1px rgba(0, 0, 0, 0.7);
+  -webkit-box-shadow: -1px 14px 18px -1px rgba(0, 0, 0, 0.7);
+  -moz-box-shadow: -1px 14px 18px -1px rgba(0, 0, 0, 0.7);
+  background-image: $linear-background !important;
+}
+.nav-link,
+.nav-item {
+  color: $button-color-text !important;
+}
+.p-image {
+  margin-left: 35vw;
+  .nav-image {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    margin-right: 32px;
+  }
+}
+.navbar-expand-lg .navbar-nav {
+  flex-direction: row;
+  align-items: center;
+}
+.dir-rtl {
+  .p-image {
+    margin-right: 35vw;
+  }
+}
+@media only screen and (max-width: 576px) {
+  .navbar-expand-lg .navbar-nav {
+    flex-direction: column;
+    align-items: center;
+  }
+  .p-image {
+    margin-left: 10vw;
+  }
+  .dir-rtl {
+    .p-image {
+      margin-right: 10vw;
+    }
+  }
+}

@@ -1,0 +1,156 @@
+{
+    "general": {
+        "cut": "Cut",
+        "bulk": "Bulk",
+        "menu": "Menu",
+        "menus": "Menus",
+        "training": "Training",
+        "trainings": "Trainings",
+        "programs": "Trainings",
+        "peoples": "Peoples",
+        "post": "Post",
+        "posts": "Posts",
+        "email": "Email",
+        "password": "Password",
+        "update": "Update",
+        "submit": "Submit",
+        "pleaseLogin": "Please login to add review",
+        "close": "Close",
+        "open": "Open",
+        "filterOptions": " filter options",
+        "type": "Type:{{type}}",
+        "typeFilter": "Type",
+        "likes": "Likes:{{likesCount}}",
+        "isntValid": "is not valid",
+        "hebrew": "Hebrew",
+        "english": "English",
+        "errorInfo": "Please fill all the info about the {{type}} before"
+    },
+    "navbar": {
+        "home": "Home",
+        "menus": "Menus",
+        "programs": "Programs",
+        "peoples": "Peoples",
+        "newMenu": "Create Menu",
+        "newProgram": "New Program",
+        "login": "Login",
+        "logout": "Logout"
+    },
+    "home": {
+        "allPosts": "All Posts",
+        "selectLanguage": "Select Language"
+    },
+    "pages": {
+        "menus": {
+            "title": "Menus",
+            "filterCalories": "Calories",
+            "filterProtein": "Protein",
+            "filterCarbs": "Carbs",
+            "filterFats": "Fats",
+            "notFound": "Menus not found"
+        },
+        "trainings": {
+            "title": "Trainings",
+            "filterType": "Type",
+            "notFound": "Trainings not found"
+        },
+        "newPosts": {
+            "general": {
+                "title": "Title",
+                "titleDesc": "Give a title",
+                "description": "Description",
+                "image": "Image",
+                "imageDesc": "Enter image url"
+            },
+            "menu": {
+                "create": "Create new menu",
+                "update": "Update your menu",
+                "delete": "Delete your menu",
+                "selectType": "Select Menu Type",
+                "addFood": "Add Foods",
+                "table": {
+                    "name": "Name",
+                    "unit": "Unit",
+                    "qty": "Qty",
+                    "calories": "Calories",
+                    "protein": "Protein",
+                    "fat": "Fat",
+                    "carbs": "Carbs",
+                    "total": "Total values",
+                    "unitFixed": "Fixed",
+                    "unitGrams": "Grams",
+                    "unitKg": "KG",
+                    "unitCup": "Cup",
+                    "unitMl": "Mililiter"
+                },
+                "addBtn": "Add food",
+                "uploadBtn": "Upload your menu"
+            },
+            "training": {
+                "create": "Create new program",
+                "update": "Update your program",
+                "delete": "Delete your program",
+                "selectType": "Select Program Type",
+                "addExercise": "Add exercise",
+                "table": {
+                    "name": "Name",
+                    "muscleName": "Muscle Name",
+                    "reps": "Reps",
+                    "sets": "Sets"
+                },
+                "exercises": "Exercises",
+                "addBtn": "Add exercise",
+                "uploadBtn": "Upload your program"
+            }
+        },
+        "postPage": {
+            "buildBy": "Build by:",
+            "suitableFor": "Suitable for:{{suitable}}",
+            "likes": "Likes:{{likesCount}}",
+            "edit": "Edit",
+            "reviews": "Reviews",
+            "noReviews": "No reviews",
+            "writeReview": "Write your review",
+            "rating": "Rating",
+            "select": "Select..",
+            "comment": "Comment",
+            "r1": "Poor",
+            "r2": "Fair",
+            "r3": "Good",
+            "r4": "Very Good",
+            "r5": "Excellent"
+        },
+        "card": {
+            "type": "Type",
+            "likes": "Likes",
+            "calories": "Calories",
+            "protein": "Protein",
+            "fat": "Fat",
+            "carbs": "Carbs"
+        },
+        "user": {
+            "signIn": "Sign In",
+            "signUp": "Sign Up",
+            "register": "Register",
+            "login": "Login",
+            "fullName": "Full Name",
+            "phoneNumber": "Phone Number",
+            "image": "Image",
+            "imagePh": "Upload image",
+            "shareMyPhone": "Share my phone",
+            "newHere": "New Here ?",
+            "hasAccount": "Have an account ?",
+            "myProfile": "My Profile",
+            "update": "Profile updated !",
+            "updateBtn": "Update",
+            "errorPassword": "must be at least 6 characters",
+            "errorName": "חייב להכיל לפחות 3 תווים",
+            "table": {
+                "title": "Title",
+                "type": "Type",
+                "likes": "Likes",
+                "reviews": "Reviews"
+            }
+        }
+    }
+}

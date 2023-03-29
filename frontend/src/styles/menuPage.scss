@@ -1,0 +1,122 @@
+@import "./variables.scss";
+.menu-page {
+  color: $button-color-text;
+  overflow-x: hidden;
+  padding: 0 40px;
+  margin-top: 40px;
+}
+.info {
+  width: 300px;
+  justify-content: space-between;
+}
+
+.ex-title {
+  text-align: center;
+}
+table {
+  border: 1px solid $button-color-text;
+  width: 500px;
+  font-weight: 700;
+  color: $button-color-text;
+  margin-top: 40px;
+  overflow-x: scroll;
+  thead {
+    tr {
+      border-bottom: 1px solid $button-color-text;
+      th {
+        text-align: center;
+        &:not(:last-child) {
+          border-right: 0.5px solid $button-color-text;
+        }
+      }
+    }
+  }
+  tbody {
+    tr {
+      border-bottom: 1px solid $button-color-text;
+
+      td {
+        width: 150px;
+        text-align: center;
+        &:first-child {
+          width: 200px;
+        }
+
+        &:not(:last-child) {
+          border-right: 0.5px solid $button-color-text;
+        }
+      }
+    }
+  }
+  tfoot {
+    tr {
+      td {
+        text-align: center;
+        &:not(:last-child) {
+          border-right: 0.5px solid $button-color-text;
+        }
+      }
+    }
+  }
+}
+.list-group-item {
+  background: none !important;
+  color: $button-color-text !important;
+}
+.review-header,
+.form-label {
+  color: $button-color-text;
+}
+.col-flex {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  .post-image {
+    max-width: 400px;
+    margin-top: 20px;
+    padding: 0 48px;
+  }
+}
+@media only screen and (max-width: 576px) {
+  .scrolling {
+    overflow-x: scroll;
+    width: unset !important;
+    max-width: unset !important;
+  }
+  .row-scroll {
+    overflow-x: scroll;
+  }
+}
+
+.dir-rtl {
+  table {
+    thead {
+      tr {
+        th {
+          &:not(:last-child) {
+            border-left: 0.5px solid $button-color-text;
+          }
+        }
+      }
+    }
+    tbody {
+      tr {
+        td {
+          &:not(:last-child) {
+            border-left: 0.5px solid $button-color-text;
+          }
+        }
+      }
+    }
+  }
+  tfoot {
+    tr {
+      td {
+        text-align: center;
+        &:not(:last-child) {
+          border-left: 0.5px solid $button-color-text;
+        }
+      }
+    }
+  }
+}
